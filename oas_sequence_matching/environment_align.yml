@@ -1,0 +1,22 @@
+name: cdr3-align
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  # core CLI tools
+  - mmseqs2=18.8cc5c
+  - csvkit=2.1.0          # not required here but handy for debugging/inspecting CSVs
+  - gawk=5.3.1
+  - coreutils=9.5
+  - grep=3.11
+  - sed=4.9
+  - findutils=4.9
+  - wget=1.21.4
+  # python stack
+  - pandas=2.2.*
+  - numpy=1.26.*          # safe with scanpy 1.9.x
+  - matplotlib=3.8.*
+  - scanpy=1.9.*          # used to read AnnData and set figure params
+  # anndata comes via scanpy; no need to pin separately
+  - pip
