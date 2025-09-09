@@ -1,0 +1,12 @@
+# Big binaries / data
+**/*.sif
+**/*.h5ad
+**/*.h5ddl
+**/*.tsv
+**/*.csv
+**/*.fasta
+**/tmp/
+
+# OS/editor
+.DS_Store
+*.swp
