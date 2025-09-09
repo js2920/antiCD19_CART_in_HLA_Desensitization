@@ -11,38 +11,33 @@ Gabernet G, Marquez S, Bjornson R, Peltzer A, Meng H, Aron E, Lee NY, Jensen CG,
 This repository contains a lightweight, reproducible wrapper script and documentation to (optionally) **preprocess**, **merge**, and **integrate** single‑cell BCR V(D)J data using the **Dandelion** container, and (optionally) run **Change‑O** clonotype calling, matching the archive layout obtained via the zenodo repository:
 
 ```text
-dandelion_inputs_TCR/
+dandelion_inputs/
 ├── analysis_ready/
 │   ├── meta.csv
-│   ├── per_cell_TCR_table.csv
 │   ├── sc-dandelion_latest.sif
-│   ├── adata_with_TCR_integration.h5ad
 │   ├── processed_adata_NTX_all_samples.h5ad
-│   ├── NTX_1_TCR_fastq/
-│   │   └── dandelion/all_contig_dandelion.tsv
-│   ├── NTX_2_TCR_fastq/
-│   │   └── dandelion/all_contig_dandelion.tsv
-│   ├── NTX_3_TCR_fastq/
-│   │   └── dandelion/all_contig_dandelion.tsv
-│   ├── NTX_4_TCR_fastq/
-│   │   └── dandelion/all_contig_dandelion.tsv
-│   └── NTX_5_TCR_fastq/
-│       └── dandelion/all_contig_dandelion.tsv
+│   ├── adata_with_bcr_integration.h5ad         — often produced; can be re-created
+│   ├── my_merged_contigs.tsv                    — often produced; can be re-created
+│   ├── NTX_1_fastq/dandelion/all_contig_dandelion.tsv
+│   ├── NTX_2_fastq/dandelion/all_contig_dandelion.tsv
+│   ├── NTX_3_fastq/dandelion/all_contig_dandelion.tsv
+│   ├── NTX_4_fastq/dandelion/all_contig_dandelion.tsv
+│   └── NTX_5_fastq/dandelion/all_contig_dandelion.tsv
 ├── base_inputs/
+│   ├── containers/sc-dandelion_latest.sif       — SIF (duplicate of above is OK)
+│   ├── meta/meta.csv                            — Dandelion CLI metadata
 │   ├── adata/processed_adata_NTX_all_samples.h5ad
-│   ├── contigs/
-│   │   ├── NTX_1.all_contig_dandelion.tsv
-│   │   ├── NTX_2.all_contig_dandelion.tsv
-│   │   ├── NTX_3.all_contig_dandelion.tsv
-│   │   ├── NTX_4.all_contig_dandelion.tsv
-│   │   └── NTX_5.all_contig_dandelion.tsv
-│   ├── containers/sc-dandelion_latest.sif
-│   ├── germlines/corrected_germline.fasta
-│   ├── igblast_internal_data/
-│   └── meta/meta.csv
-├── README_dandelion_inputs_TCR.txt
-└── manifest_dandelion_TCR.tsv
-```
+│   ├── contigs/NTX_*.all_contig_dandelion.tsv   — optional centralized contig TSVs
+│   ├── igblast_internal_data/                   — optional custom IgBLAST data
+│   └── germlines/corrected_germline.fasta       — optional custom germlines
+└── env/
+    ├── conda_env_export.yml
+    ├── pip_freeze.txt
+    ├── python_versions.txt
+    ├── docker_version.txt
+    ├── igblast_version.txt
+    └── singularity_version.txt
+
 
 
 > **What this repo provides**
