@@ -20,4 +20,4 @@ conda activate car-extraction
 scripts/run_from_zip_car_extraction.sh --zip ./archives/CAR_extraction_inputs.zip
 
 #    or download from Zenodo 
-scripts/run_from_zip_car_extraction.sh --zip "https://zenodo.org/records/17063869"
+scripts/run_from_zip_car_extraction.sh --zip https://zenodo.org/records/17063869
