@@ -1,0 +1,11 @@
+name: car-extraction
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - umi_tools=1.1.5
+  - star=2.7.11a
+  - samtools=1.17
+  - pigz
