@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # scripts/run_pipeline.sh
-# Reproducible BCR pipeline wrapper around the Dandelion Singularity/Apptainer container.
+# Reproducible BCR pipeline wrapper around the Dandelion Singularity container.
 # Supports: preprocess (optional), merge, integrate, changeo (optional), all.
 # Tested with dandelion sc-dandelion_latest.sif (see README for how to pull/locate).
 
