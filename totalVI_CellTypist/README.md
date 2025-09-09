@@ -1,3 +1,17 @@
+the authors of totalVI and Celltypist and the Human Tonsil Atlas have to be acknowledged and thanked at the beginning
+
+Dominguez Conde C, Xu C, Jarvis LB, Rainbow DB, Wells SB, Gomes T, Howlett SK, Suchanek O, Polanski K, King HW, Mamanova L, Huang N, Szabo PA, Richardson L, Bolt L, Fasouli ES, Mahbubani KT, Prete M, Tuck L, Richoz N, Tuong ZK, Campos L, Mousa HS, Needham EJ, Pritchard S, Li T, Elmentaite R, Park J, Rahmani E, Chen D, Menon DK, Bayraktar OA, James LK, Meyer KB, Yosef N, Clatworthy MR, Sims PA, Farber DL, Saeb-Parsy K, Jones JL, Teichmann SA. Cross-tissue immune cell analysis reveals tissue-specific features in humans. Science. 2022;376(6594):eabl5197.
+
+
+&
+
+Gayoso A, Steier Z, Lopez R, Regier J, Nazor KL, Streets A, Yosef N. Joint probabilistic modeling of single-cell multi-omic data with totalVI. Nat Methods. 2021;18(3):272-82.
+
+&
+
+Massoni-Badosa R, Aguilar-Fernandez S, Nieto JC, Soler-Vila P, Elosua-Bayes M, Marchese D, Kulis M, Vilas-Zornoza A, Buhler MM, Rashmi S, Alsinet C, Caratu G, Moutinho C, Ruiz S, Lorden P, Lunazzi G, Colomer D, Frigola G, Blevins W, Romero-Rivero L, Jimenez-Martinez V, Vidal A, Mateos-Jaimez J, Maiques-Diaz A, Ovejero S, Moreaux J, Palomino S, Gomez-Cabrero D, Agirre X, Weniger MA, King HW, Garner LC, Marini F, Cervera-Paz FJ, Baptista PM, Vilaseca I, Rosales C, Ruiz-Gaspa S, Talks B, Sidhpura K, Pascual-Reguant A, Hauser AE, Haniffa M, Prosper F, Kuppers R, Gut IG, Campo E, Martin-Subero JI, Heyn H. An atlas of cells in the human tonsil. Immunity. 2024;57(2):379-99 e18.
+
+
 # TOTALVI + CellTypist (Reproducible from Zenodo Archive)
 
 This repository reproduces the analysis using only the Zenodo-deposited zip archive
