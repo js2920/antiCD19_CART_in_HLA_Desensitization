@@ -56,7 +56,7 @@ dandelion_inputs/
 
 ## Dependencies
 
-### 1) Dandelion Singularity/Apptainer container (required)
+### 1) Dandelion Singularity container
 
 Dandelion ships a ready‑to‑run container that bundles IgBLAST, Change‑O, SHazaM, TIgGER, etc. Pull it once and point the script at the resulting `sc-dandelion_latest.sif`:
 
