@@ -64,3 +64,11 @@ Dandelion ships a ready‑to‑run container that bundles IgBLAST, Change‑O, S
 ```bash
 # Pull (creates sc-dandelion_latest.sif in the CWD)
 singularity pull library://kt16/default/sc-dandelion:latest
+
+# from repo root:
+chmod +x scripts/run_pipeline.sh
+
+If you prefer to run IgBLAST/Change‑O outside the Dandelion SIF, use Immcantation’s Docker images:
+# pull the suite (contains Change-O, SHazaM, TIgGER, IgBLAST, etc.)
+docker pull immcantation/suite:4.6.0   # or a specific stable tag
+
