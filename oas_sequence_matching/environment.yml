@@ -1,0 +1,13 @@
+name: oas-cdr3-db
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  # core tools
+  - mmseqs2=18.8cc5c        
+  - csvkit=2.1.0            
+  - gawk=5.3.1
+  - coreutils=9.5           
+  - grep=3.11
+  - sed=4.9
