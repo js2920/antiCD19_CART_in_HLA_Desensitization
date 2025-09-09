@@ -1,6 +1,6 @@
 # KZV-101 CAR Extraction (Single-cell) — Bundle Runner
 
-This repository runs a reproducible KZV‑101 extraction pipeline directly from a data bundle `CAR_extraction_inputs.zip`.
+This repository runs a reproducible KYV‑101 extraction pipeline directly from a data bundle `CAR_extraction_inputs.zip`.
 
 **What it does:**
 
