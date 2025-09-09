@@ -19,5 +19,5 @@ conda activate car-extraction
 # 2) Run with a local ZIP
 scripts/run_from_zip_car_extraction.sh --zip ./archives/CAR_extraction_inputs.zip
 
-#    or download from Zenodo (example URL shown):
-scripts/run_from_zip_car_extraction.sh --zip "https://zenodo.org/record/<RECORD_ID>/files/CAR_extraction_inputs.zip?download=1"
+#    or download from Zenodo 
+scripts/run_from_zip_car_extraction.sh --zip "https://zenodo.org/records/17063869"
