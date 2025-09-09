@@ -1,0 +1,16 @@
+# Zip and large data
+*.zip
+_bundle_work/
+analysis_output/
+*.bam
+*.bai
+*.fq.gz
+*.fastq.gz
+*.log
+STARtmp/
+# Conda
+.env/
+.venv/
+conda_env/
+# macOS / editor cruft
+.DS_Store
