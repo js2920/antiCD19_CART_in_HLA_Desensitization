@@ -16,20 +16,20 @@ dandelion_inputs/
 │   ├── meta.csv
 │   ├── sc-dandelion_latest.sif
 │   ├── processed_adata_NTX_all_samples.h5ad
-│   ├── adata_with_bcr_integration.h5ad         — often produced; can be re-created
-│   ├── my_merged_contigs.tsv                    — often produced; can be re-created
+│   ├── adata_with_bcr_integration.h5ad       
+│   ├── my_merged_contigs.tsv                   
 │   ├── NTX_1_fastq/dandelion/all_contig_dandelion.tsv
 │   ├── NTX_2_fastq/dandelion/all_contig_dandelion.tsv
 │   ├── NTX_3_fastq/dandelion/all_contig_dandelion.tsv
 │   ├── NTX_4_fastq/dandelion/all_contig_dandelion.tsv
 │   └── NTX_5_fastq/dandelion/all_contig_dandelion.tsv
 ├── base_inputs/
-│   ├── containers/sc-dandelion_latest.sif       — SIF (duplicate of above is OK)
-│   ├── meta/meta.csv                            — Dandelion CLI metadata
+│   ├── containers/sc-dandelion_latest.sif       
+│   ├── meta/meta.csv                            
 │   ├── adata/processed_adata_NTX_all_samples.h5ad
-│   ├── contigs/NTX_*.all_contig_dandelion.tsv   — optional centralized contig TSVs
-│   ├── igblast_internal_data/                   — optional custom IgBLAST data
-│   └── germlines/corrected_germline.fasta       — optional custom germlines
+│   ├── contigs/NTX_*.all_contig_dandelion.tsv  
+│   ├── igblast_internal_data/                  
+│   └── germlines/corrected_germline.fasta      
 └── env/
     ├── conda_env_export.yml
     ├── pip_freeze.txt
