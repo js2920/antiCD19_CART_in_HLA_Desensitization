@@ -1,6 +1,7 @@
 # TOTALVI + CellTypist (Reproducible from Zenodo Archive)
 
-This repository reproduces the analysis using only the Zenodo-deposited zip archive.
+This repository reproduces the analysis using only the Zenodo-deposited zip archive
+from https://zenodo.org/records/17063869
 
 ## Inputs
 
