@@ -12,12 +12,10 @@ Gayoso A, Steier Z, Lopez R, Regier J, Nazor KL, Streets A, Yosef N. Joint proba
 Massoni-Badosa R, Aguilar-Fernandez S, Nieto JC, Soler-Vila P, Elosua-Bayes M, Marchese D, Kulis M, Vilas-Zornoza A, Buhler MM, Rashmi S, Alsinet C, Caratu G, Moutinho C, Ruiz S, Lorden P, Lunazzi G, Colomer D, Frigola G, Blevins W, Romero-Rivero L, Jimenez-Martinez V, Vidal A, Mateos-Jaimez J, Maiques-Diaz A, Ovejero S, Moreaux J, Palomino S, Gomez-Cabrero D, Agirre X, Weniger MA, King HW, Garner LC, Marini F, Cervera-Paz FJ, Baptista PM, Vilaseca I, Rosales C, Ruiz-Gaspa S, Talks B, Sidhpura K, Pascual-Reguant A, Hauser AE, Haniffa M, Prosper F, Kuppers R, Gut IG, Campo E, Martin-Subero JI, Heyn H. An atlas of cells in the human tonsil. Immunity. 2024;57(2):379-99 e18.
 
 
-# TOTALVI + CellTypist (Reproducible from Zenodo Archive)
+# TOTALVI + CellTypis from Zenodo https://doi.org/10.5281/zenodo.17063869 or using GEO repository GSE307464
 
-This repository reproduces the analysis using only the Zenodo-deposited zip archive
-from https://zenodo.org/records/17063869
 
-## Inputs
+## Inputs Zenodo
 
 Download the Zenodo zip archive and keep the structure intact:
 
@@ -66,3 +64,27 @@ Notes
 The script uses only files in the Zenodo archive 
 Random seeds are set for reproducibility.
 GPU will be used if available; otherwise CPU is used.
+
+#or GEO
+TOTALVI + CellTypist (GSE307464) — Analysis Template
+
+ path‑agnostic, reproducible template to process and annotate single‑cell 5′ GEX + CITE‑seq data forGEO: **GSE307464**
+
+
+totalvi_celltypist_geo.py
+  End‑to‑end RNA+ADT integration:
+  - Read CellBender‑filtered 10x HDF5 files
+  - QC (mito / haemoglobin) + Scrublet doublet removal
+  - **TOTALVI** latent space → UMAP/Leiden
+  - **CellTypist** annotation (+ per‑cluster majority label)
+  - Summary figures and processed AnnData write‑out
+
+refine_tonsil_atlas_geo.py  
+  Focused re‑annotation / visualization:
+  - Subset to *Plasma cells* + a chosen *Memory‑B* Leiden cluster (default: `5`)
+  - Re‑annotate with the **Cells_Human_Tonsil** CellTypist model
+  - Global and per‑sample UMAPs
+  - Pre vs Post (NTX_1–3 vs NTX_4–5) UMAPs for Memory B vs Plasma
+  - Saves a refined AnnData
+
+
