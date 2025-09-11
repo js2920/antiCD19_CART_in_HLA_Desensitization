@@ -65,7 +65,7 @@ The script uses only files in the Zenodo archive
 Random seeds are set for reproducibility.
 GPU will be used if available; otherwise CPU is used.
 
-#or GEO
+## or GEO
 TOTALVI + CellTypist (GSE307464) — Analysis Template
 
  path‑agnostic, reproducible template to process and annotate single‑cell 5′ GEX + CITE‑seq data forGEO: **GSE307464**
