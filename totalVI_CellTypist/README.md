@@ -31,8 +31,6 @@ models/Immune_All_Low.pkl
 models/Cells_Human_Tonsil.pkl
 
 
-## Environment
-
 ```bash
 # Option A: pip (CPU example)
 python -m venv .venv
@@ -63,9 +61,9 @@ outputs/figures/ (UMAPs, boxplots, dotplots, MA plot, cell-cycle proportions)
 Notes
 The script uses only files in the Zenodo archive 
 Random seeds are set for reproducibility.
-GPU will be used if available; otherwise CPU is used.
 
-## or GEO
+## Inputs GEO
+
 TOTALVI + CellTypist (GSE307464) — Analysis Template
 
  path‑agnostic, reproducible template to process and annotate single‑cell 5′ GEX + CITE‑seq data forGEO: **GSE307464**
