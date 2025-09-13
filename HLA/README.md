@@ -1,5 +1,5 @@
 
-# HLA eplet similarity — build from scratch
+# HLA eplet similarity
 Eplet definitions were obtained from the International HLA Epitope (Eplet) Registry using the community hlapro R package. It was created under the auspices of the 16th International HLA and Immunogenetics Workshop (IHIW) and is maintained by the EpRegistry team.
 
 Great thanks to
