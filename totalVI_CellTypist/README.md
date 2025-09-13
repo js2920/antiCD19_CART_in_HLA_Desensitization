@@ -1,3 +1,6 @@
+
+# TOTALVI + CellTypist from Zenodo https://doi.org/10.5281/zenodo.17063869 or using GEO repository GSE307464
+
 the authors of totalVI and Celltypist and the Human Tonsil Atlas have to be acknowledged and thanked at the beginning
 
 Dominguez Conde C, Xu C, Jarvis LB, Rainbow DB, Wells SB, Gomes T, Howlett SK, Suchanek O, Polanski K, King HW, Mamanova L, Huang N, Szabo PA, Richardson L, Bolt L, Fasouli ES, Mahbubani KT, Prete M, Tuck L, Richoz N, Tuong ZK, Campos L, Mousa HS, Needham EJ, Pritchard S, Li T, Elmentaite R, Park J, Rahmani E, Chen D, Menon DK, Bayraktar OA, James LK, Meyer KB, Yosef N, Clatworthy MR, Sims PA, Farber DL, Saeb-Parsy K, Jones JL, Teichmann SA. Cross-tissue immune cell analysis reveals tissue-specific features in humans. Science. 2022;376(6594):eabl5197.
@@ -12,12 +15,8 @@ Gayoso A, Steier Z, Lopez R, Regier J, Nazor KL, Streets A, Yosef N. Joint proba
 Massoni-Badosa R, Aguilar-Fernandez S, Nieto JC, Soler-Vila P, Elosua-Bayes M, Marchese D, Kulis M, Vilas-Zornoza A, Buhler MM, Rashmi S, Alsinet C, Caratu G, Moutinho C, Ruiz S, Lorden P, Lunazzi G, Colomer D, Frigola G, Blevins W, Romero-Rivero L, Jimenez-Martinez V, Vidal A, Mateos-Jaimez J, Maiques-Diaz A, Ovejero S, Moreaux J, Palomino S, Gomez-Cabrero D, Agirre X, Weniger MA, King HW, Garner LC, Marini F, Cervera-Paz FJ, Baptista PM, Vilaseca I, Rosales C, Ruiz-Gaspa S, Talks B, Sidhpura K, Pascual-Reguant A, Hauser AE, Haniffa M, Prosper F, Kuppers R, Gut IG, Campo E, Martin-Subero JI, Heyn H. An atlas of cells in the human tonsil. Immunity. 2024;57(2):379-99 e18.
 
 
-# TOTALVI + CellTypis from Zenodo https://doi.org/10.5281/zenodo.17063869 or using GEO repository GSE307464
-
-
-## Inputs Zenodo
-
-Download the Zenodo zip archive and keep the structure intact:
+**Inputs Zenodo Download** 
+the Zenodo zip archive and keep the structure intact:
 
 totalvi_celltypist_inputs/
 processed_adata/processed_adata_NTX_all_samples.h5ad # optional
@@ -32,22 +31,22 @@ models/Cells_Human_Tonsil.pkl
 
 
 ```bash
-# Option A: pip (CPU example)
+Option A: pip (CPU example)
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-# If you have CUDA, install a matching torch build from https://pytorch.org/get-started/locally/
+If you have CUDA, install a matching torch build from https://pytorch.org/get-started/locally/
 
-## RUN
+RUN
 
-# Using a zip file
+Using a zip file
 python scripts/run_totalvi_celltypist_repro.py \
   --zenodo-zip /path/to/totalvi_celltypist_inputs.zip \
   --outdir outputs \
   --max-epochs 150 \
   --seed 0
 
-# Or using an already-extracted directory
+Or using an already-extracted directory
 python scripts/run_totalvi_celltypist_repro.py \
   --zenodo-dir /path/to/totalvi_celltypist_inputs \
   --outdir outputs
@@ -62,7 +61,7 @@ Notes
 The script uses only files in the Zenodo archive 
 Random seeds are set for reproducibility.
 
-## Inputs GEO
+**GEO**
 
 TOTALVI + CellTypist (GSE307464) — Analysis Template
 
