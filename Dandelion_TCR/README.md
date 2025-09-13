@@ -7,8 +7,7 @@ Suo C, Polanski K, Dann E, Lindeboom RGH, Vilarrasa-Blasi R, Vento-Tormo R, Hani
 &
 
 Gabernet G, Marquez S, Bjornson R, Peltzer A, Meng H, Aron E, Lee NY, Jensen CG, Ladd D, Polster M, Hanssen F, Heumos S, nf-core c, Yaari G, Kowarik MC, Nahnsen S, Kleinstein SH. nf-core/airrflow: An adaptive immune receptor repertoire analysis workflow employing the Immcantation framework. PLoS Comput Biol. 2024;20(7):e1012265.
-
-
+TCR single cell processing using the  **https://doi.org/10.5281/zenodo.17084542** repository or the **GEO GSE307464 repository**
 Files structure from Zenodo zip archive
 
 ```text
