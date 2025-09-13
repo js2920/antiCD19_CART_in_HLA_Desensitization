@@ -1,4 +1,4 @@
-# SCENIC & NetworkX reproducibility pack
+# SCENIC & NetworkX 
 
 Great thanks to the (py)SCENIC authors
 
