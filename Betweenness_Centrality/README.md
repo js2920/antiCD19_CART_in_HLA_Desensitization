@@ -9,7 +9,7 @@ This repository contains three analysis scripts to reproduce:
 2) **SCENIC on LLP overlap sequences (union run, 10×) + aggregation + pre/post meta‑enrichment + dotplots**  
 3) **NetworkX consensus/overlap graphs across multiple SCENIC_CAR runs (CAR_CD4)**
 
-All scripts are CLI tools with configurable paths and parameters. They are designed to run against the Zenodo reference bundle **https://doi.org/10.5281/zenodo.17085448**
+All scripts are CLI tools with configurable paths and parameters. They are designed to run against the Zenodo reference bundle **https://doi.org/10.5281/zenodo.17085448**. A path agnostic raw script processing the files downstream of the CAR extraction, Dandelion and CellTypist workflows is also provided as SCENIC_NetworkX_raw.py
 
 > 🔗 **Data bundle**: 
 
