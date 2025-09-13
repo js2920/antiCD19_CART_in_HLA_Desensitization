@@ -1,6 +1,6 @@
 # KYV-101 CAR Extraction 
 
-This repository runs a reproducible KYV‑101 extraction pipeline directly from teh data bundle `CAR_extraction_inputs.zip` deposited at **https://doi.org/10.5281/zenodo.17085448** 
+This repository runs a reproducible KYV‑101 extraction pipeline directly from teh data bundle `CAR_extraction_inputs.zip` deposited at **https://doi.org/10.5281/zenodo.17063869** 
 
 **What it does:**
 
