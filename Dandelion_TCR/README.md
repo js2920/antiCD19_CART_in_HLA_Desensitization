@@ -1,4 +1,4 @@
-# Reproducible single‑cell TCR inputs (Dandelion) — pipeline wrapper
+#single‑cell TCR inputs (Dandelion)
 
 The authors of Dandelion and Immcantation have to be acknowledged and thanked at the beginning
 
