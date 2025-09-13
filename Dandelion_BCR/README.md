@@ -1,4 +1,4 @@
-# Reproducible single‑cell BCR inputs (Dandelion) — pipeline wrapper
+# single‑cell BCR processing (Dandelion)
 
 the authors of Dandelion and Immcantation have to be acknowledged and thanked at the beginning
 
@@ -8,7 +8,9 @@ Suo C, Polanski K, Dann E, Lindeboom RGH, Vilarrasa-Blasi R, Vento-Tormo R, Hani
 
 Gabernet G, Marquez S, Bjornson R, Peltzer A, Meng H, Aron E, Lee NY, Jensen CG, Ladd D, Polster M, Hanssen F, Heumos S, nf-core c, Yaari G, Kowarik MC, Nahnsen S, Kleinstein SH. nf-core/airrflow: An adaptive immune receptor repertoire analysis workflow employing the Immcantation framework. PLoS Comput Biol. 2024;20(7):e1012265.
 
-This repository contains a lightweight, reproducible wrapper script and documentation to (optionally) **preprocess**, **merge**, and **integrate** single‑cell BCR V(D)J data using the **Dandelion** container, and (optionally) run **Change‑O** clonotype calling, matching the archive layout obtained via the zenodo repository:
+This repository contains a lightweight, reproducible wrapper script and documentation to (optionally) **preprocess**, **merge**, and **integrate** single‑cell BCR V(D)J data using the **Dandelion** container, and (optionally) run **Change‑O** clonotype calling, matching the archive layout obtained via the zenodo repository **https://doi.org/10.5281/zenodo.17084542** or the **GEO GSE307464 repository**
+
+**https://doi.org/10.5281/zenodo.17084542** see below for **GEO GSE307464 repository** see the *geo.py or *geo.sh scripts in the repository
 
 ```text
 dandelion_inputs/
@@ -66,5 +68,4 @@ chmod +x scripts/run_pipeline.sh
 
 If you prefer to run IgBLAST/Change‑O outside the Dandelion SIF, use Immcantation’s Docker images:
 # pull the suite (contains Change-O, SHazaM, TIgGER, IgBLAST, etc.)
-docker pull immcantation/suite:4.6.0   # or a specific stable tag
-
+docker pull immcantation/suite:4.6.0   
